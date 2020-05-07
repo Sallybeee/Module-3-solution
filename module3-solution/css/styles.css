@@ -1,0 +1,192 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color:#7FDBFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+
+.container {
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 140px;
+    position: fixed;
+    width: 100%;
+    }
+
+.hide-desktop-only {
+    display: none;
+}
+
+/* Tablet View */
+@media (max-width: 768px){
+    
+.hide-desktop-only {
+    display: block;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+}
+
+/* Mobile View */
+@media (max-width: 400px){
+    
+    .col {
+        width: 100%;
+    }
+    
+    .hide-mobile {
+        display: none;
+    }
+
+}
+
+header {
+    background-color: #3D9970;
+    min-height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu1{
+    background-color: grey;
+    outline: 2px solid black;
+    width: 450px;
+    height: 185px;
+    margin-left: 90px;
+}
+
+.p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chicken {
+    background-color: pink;
+    outline: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu2{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 103px;
+    margin-right: 250px;
+    margin-top: -120px;
+}
+
+.menu3{
+    background-color: grey;
+    outline: 2px solid black;
+    width: 450px;
+    height: 185px;
+    margin-left: 556px;
+    margin-top: -207px;
+}
+
+.p1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.beef {
+    background-color: red;
+    outline: 2px solid black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu4{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 567px;
+    margin-right: 250px;
+    margin-top: -122px;
+}
+
+.menu5{
+    background-color: grey;
+    outline: 2px solid black;
+    width: 450px;
+    height: 185px;
+    margin-left: 1022px;
+    margin-top: -203px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sushi {
+    background-color: yellow;
+    outline: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 39px;
+    margin-left: 250px;
+}   
+
+.menu6{
+    background-color: grey;
+    width: 430px;
+    height: 120px;
+    margin-left: 1034px;
+    margin-top: -122px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.728);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    color: rgb(198, 198, 198);
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
